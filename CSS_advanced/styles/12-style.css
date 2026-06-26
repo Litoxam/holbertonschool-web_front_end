@@ -38,6 +38,8 @@ a {
 :root {
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
 }
 
 :root {
@@ -73,12 +75,6 @@ a {
     --line-height-big: 1.8;
 }
 
-:root {
-    --section-header-align: center;
-    --section-tagline-transform: uppercase;
-    --section-title-margin: 0;
-    --section-title-color: var(--color-black);
-}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
